@@ -44,7 +44,7 @@ int main()
         case '^':
             //멱승 연산자 계산 코드 추가
             op2 = pop();
-            push(round(pow(pop(), op2)));
+            push(pow(pop(), op2));
             break;
 
         case '\n':
