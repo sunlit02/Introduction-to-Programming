@@ -5,7 +5,7 @@ int sp = 0;
 
 double val[MAXVAL];
 
-void puch(double f)
+void push(double f)
 {
     if (sp < MAXVAL)
         val[sp++] = f;
