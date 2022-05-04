@@ -14,11 +14,11 @@ int getop(char s[])
 
     i = 0;
 
-    if (isdighit(c))
-        while (isdighit(s[++i] = c = getchar()));
+    if (isdigit(c))
+        while (isdigit(s[++i] = c = getchar()));
 
     if (c == '.')
-        while (isdighit(s[++i] = c = getchar()));
+        while (isdigit(s[++i] = c = getchar()));
 
     
     s[i] = '\0';
